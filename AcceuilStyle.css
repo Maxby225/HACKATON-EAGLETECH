@@ -1,0 +1,59 @@
+/*Entête*/
+
+      .menu {
+        display: inline-flex;
+        justify-content: center;
+        background-color: #1ac2b4;
+        height: 20px;
+        padding: 18px;
+        border-radius: 10px;
+        list-style:none;
+      }
+      
+      .menu ul {
+        display:flex;
+        list-style: none;
+        margin:0;
+        padding:0;
+      }
+      
+      .menu li {
+        margin-right: 20px;
+      }
+      
+      .menu li:last-child {
+        margin-right: 0px;
+      }
+      
+      .menu a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 20px;
+       transition: background-color 0.3s ease;
+      }/*modifie la taille des button au clic*/
+      
+      .menu a:hover {
+        background-color: #161616;
+        color: #f3efef;
+      }/*modifier l'aspect des buttons au clic*/
+
+#LOGOPHARMA ul{list-style:circle;}
+
+.Contenue{ 
+         }
+
+.InfoMedecine{
+                font-size:16px;
+               
+            }
+
+.InfoCoeur{
+           
+          }
+
+.pied_de_page{
+                background-color: rgb(58, 57, 56);  
+
+              }
