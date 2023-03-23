@@ -1,7 +1,7 @@
 .Entête{
        position: center;
-       padding: 10px;
-       margin: 10px;
+       padding: 20px;
+       margin: 50px;
       display: flexbox;
       justify-content: space-between;
       align-items: center;
@@ -28,28 +28,32 @@
         list-style-image: url("img/telephone.jpg");
       }ajouter des image a une liste*/
       
-      .Contenue{
+.Contenue{
         padding:20px;
-        margin:20px;
-        /**width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        margin:60px;
+        text-align:justify;
+        /**width: 100%;*/
+        /*display: inline-flex;*/
+        /*flex-wrap: wrap;
         text-align: start;*//
         
                }
                
-    .InfoMedecine{
-      width: 30%;
-      margin-right: 500px;
-      padding:100px;
-      line-height:1.5; 
+    .InfoMedecine {
+      width: 70%;/*
+      margin-right: 00px;
+      margin-left:200px;
+      padding:30px;
+      /**line-height:1.5;*/
+      display:inline-flex;
                   }
+    h2{margin-left:100px;}
 
     .diaporama2{
       margin-left: 500px;
       margin-right: 500px;
-      padding:150px;
-      height: 0%;
+      padding:200px;
+      height: 100%;
       position: absolute;
       overflow: hidden;
       position:relative;
@@ -60,7 +64,7 @@
         left: 0px;
         top: 0;
         opacity: 0;
-        height: 200px;
+        height: 300px;
         animation: slide 20s infinite;}
       
         .diaporama2 img:first-child {
@@ -68,25 +72,54 @@
         }
 
      .diaporama1{
-      margin-left: 500px;
-      padding: 100px;
-      height: 0%;
+      margin-left: 50px;
+      padding: 10px;
+      /*height: 0%;
       position: absolute;
       overflow: hidden;
       position:relative;
+      float:right;*/
+
      }
      
       .diaporama1 img{  
-        position: absolute;
-        left: 10px;
+        /*position: absolute;
+        left: 10px;*/
         top: 0;
         opacity: 0;
-        height:150px;
-        animation: slide 10s infinite;}
+        height:50%;
+        animation: slide 10s infinite;
+        float:right;}
       
         .diaporama1 img:first-child {
           opacity: 1;
         }
+
+        .diaporama3{
+         /* margin-left: 50px;
+          padding: 10px;
+          /*height: 0%;
+          position: absolute;
+          overflow: hidden;
+          position:relative;
+          float:right;*/
+    
+         }
+        .diaporama3 img{  
+          position: absolute;/*
+          left: 10px;*/
+          /*margin-right: 500px;*/
+          top: 250%;
+          left:10%;
+          opacity: 0%;
+          height:45%;
+          animation: slide 10s infinite;
+          /*float:left;*/}
+        
+          .diaporama3 img:first-child {
+            opacity: 1;
+          }
+          
         
 
     @keyframes slide { 
@@ -110,20 +143,32 @@
   
 
 
-    .InfoCoeur{ 
-
-                  width: 30%;
+    .InfoCoeur{   /*align-self:flex-start
+                  /*display:inline-flex;*/
+                  /* width: 100%;
+                  float:right;*/
                    margin-left: 500px;
-                   padding:100px;
-                   line-height:1.5;
-                   text-align: left; 
+                   padding:1px;/*
+                   line-height:1.5;*/
+                   /*margin-top:20px;
+                   /**text-align: left;*/ 
 
     }
 
-
-
+  
 
 .pied_de_page{
+               /*text-align:;*/
                
+               display:flex;
+               justify-content: center;
              }
 
+         .contact{  
+                    margin-right:10%;
+                  }
+         .page{margin-right:10%;}
+           
+         .résociaux{margin-right:10%;}
+
+         .droit{padding:3%;}
