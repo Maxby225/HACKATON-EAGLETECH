@@ -1,0 +1,17 @@
+.Entête{
+         padding:100px;
+       }
+        figcaption{ text-align:center;}
+        ul{list-style:none;}
+        /*figure img{border: 10px solid black}*/
+.Entête img{width:100%;}
+
+
+.contenue{ /*margin: 200px;*/
+          padding:30%;
+          border:10px solid black;
+        }
+
+.pieddepage{ margin:30px;
+             border:10px solid black;
+           }
