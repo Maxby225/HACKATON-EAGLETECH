@@ -1,0 +1,43 @@
+Voici une liste d'icônes Font Awesome avec leur code Unicode dans le format que vous avez demandé, c'est-à-dire "\fxxx" :
+
+icône de la maison : \f015
+icône du téléphone : \f095
+icône de l'enveloppe : \f0e0
+icône de la carte de visite : \f2b9
+icône de l'utilisateur : \f007
+icône de la clé : \f084
+icône du cadenas : \f023
+icône du globe : \f0ac
+icône de la liste : \f03a
+icône de la flèche gauche : \f060
+icône de la flèche droite : \f061
+icône de la flèche vers le bas : \f063
+icône de la flèche vers le haut : \f062
+icône du dossier : \f07b
+icône du fichier : \f15b
+icône de la loupe : \f002
+icône de la roue dentée : \f013
+icône de la caméra : \f030
+icône du calendrier : \f073
+
+
+Voici une liste d'icônes de réseaux sociaux couramment utilisées avec leur code Unicode :
+
+Facebook : \f39e
+Twitter : \f099
+Instagram : \f16d
+LinkedIn : \f0e1
+YouTube : \f16a
+Pinterest : \f0d2
+Snapchat : \f2ac
+TikTok : \f3d3
+WhatsApp : \f232
+Telegram : \f2c6
+Reddit : \f1a1
+Twitch : \f1e8
+Discord : \f392
+GitHub : \f09b
+Medium : \f23a
+WordPress : \f19a
+gmail : \f0e0
+Notez que pour utili

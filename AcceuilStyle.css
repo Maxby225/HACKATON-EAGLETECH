@@ -39,7 +39,28 @@
         color: #f3efef;
       }/*modifier l'aspect des buttons au clic*/
 
-#LOGOPHARMA ul{list-style:circle;}
+#LOGOPHARMA ul{list-style-type:none;}
+             li.loc1:before{
+                content:"\f3c5";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+                color:#1ac2b4;
+               }
+
+               li.loc2:before{
+                content:"\f073";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+                color:#1ac2b4;
+               }
+
+               li.loc3:before{
+                content:"\f095";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+                color:#1ac2b4;
+               }
+
 
 .Contenue{ 
          }
@@ -53,9 +74,53 @@
            
           }
 
-.pied_de_page{
+.pied_de_page{   
 
-                background-color: rgb(172, 172, 172);  
+                background-color:#1ac2b4 ;  
 
               }
+
+              /*icone liste */
+
+              li.icôn1:before{
+                content:"\f3c5";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+
+               li.icôn2:before{
+                content:"\f095";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+
+               
+               li.icôn3:before{
+                content:"\f0e0";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+               /*social mediat icon*/
+
+               li.soc1:before{
+                content:"\f39e";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+
+               li.soc2:before{
+                content:"\f099";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+
+               li.soc3:before{
+                content:"\f16d";
+                margin-right: 10px;
+                font-family: "FontAwesome";
+               }
+
+
+.pied_de_page ul{list-style-type: none;}
+    
             

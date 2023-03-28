@@ -2,16 +2,37 @@
          padding:100px;
        }
         figcaption{ text-align:center;}
-        ul{list-style:none;}
+       
         /*figure img{border: 10px solid black}*/
 .Entête img{width:100%;}
 
 
 .contenue{ /*margin: 200px;*/
-          padding:30%;
-          border:10px solid black;
+          padding:20%;
+          /*border:10px solid black;*/
         }
 
 .pieddepage{ margin:30px;
-             border:10px solid black;
+             /*border:10px solid black;*/
            }
+           ul{list-style:none;}
+           li.icôn1:before{
+            content:"\f095";
+            margin-right: 10px;
+            font-family: "FontAwesome";
+           }
+
+           li.icôn2:before{
+            content:"\f0e0";
+            margin-right: 10px;
+            font-family: "FontAwesome";
+           }
+
+           li.icôn3:before{
+            content:"\f09b";
+            margin-right: 10px;
+            font-family: "FontAwesome";
+           }
+
+           
+        
