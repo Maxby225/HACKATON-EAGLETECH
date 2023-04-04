@@ -1,15 +1,18 @@
 .Entête{
        position: center;
-       padding: 20px;
+       padding: px;
        margin: 50px;
       display: flexbox;
       justify-content: space-between;
       align-items: center;
+     /* background-color: rgb(8, 8, 8);*/
        }
 
        #LOGOPHARMA{
         display: flex;
-        align-items: center;
+        align-items: normal;
+        /*background-color: black;*/
+        /*margin-right:0px;*/
       }
       
       #LOGOPHARMA img {
@@ -32,26 +35,29 @@
         padding:20px;
         margin:60px;
         text-align:justify;
+        background-color: rgb(216, 8, 8);
+      
         /**width: 100%;*/
         /*display: inline-flex;*/
         /*flex-wrap: wrap;
-        text-align: start;*//
+        text-align: start;*/
+        
         
                }
                
     .InfoMedecine {
-      width: 70%;/*
+      width: 0%;
       margin-right: 00px;
-      margin-left:200px;
-      padding:30px;
-      /**line-height:1.5;*/
+      margin-left:00px;
+      padding:0px;
+      /*line-height:1.5;*/
       display:inline-flex;
                   }
     h2{margin-left:100px;}
 
     .diaporama2{
-      margin-left: 500px;
-      margin-right: 500px;
+        margin-left: 400px;
+      /*margin-right: 500px;*/
       padding:200px;
       height: 100%;
       position: absolute;
@@ -73,7 +79,7 @@
 
      .diaporama1{
       margin-left: 50px;
-      padding: 10px;
+      /*padding: 10px;*/
       /*height: 0%;
       position: absolute;
       overflow: hidden;
@@ -109,7 +115,7 @@
           position: absolute;/*
           left: 10px;*/
           /*margin-right: 500px;*/
-          top: 160%;
+          top: 330%;
           left:10%;
           opacity: 0%;
           height:45%;
@@ -166,9 +172,14 @@
 
          .contact{  
                     margin-right:10%;
+                    text-align:center;
                   }
-         .page{margin-right:10%;}
+         .page{
+          text-align:center;
+          margin-right:10%;}
            
-         .résociaux{margin-right:10%;}
+         .résociaux{
+          text-align:center;
+          margin-right:10%;}
 
          .droit{padding:3%;}

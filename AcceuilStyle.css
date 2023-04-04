@@ -6,6 +6,7 @@
         background-color: #1ac2b4;
         height: 20px;
         padding: 18px;
+        margin-left:260px;
         border-radius: 10px;
         list-style:none;
       }
@@ -87,6 +88,7 @@
                 margin-right: 10px;
                 font-family: "FontAwesome";
                }
+              
 
                li.icôn2:before{
                 content:"\f095";

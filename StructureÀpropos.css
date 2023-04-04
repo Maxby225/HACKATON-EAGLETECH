@@ -1,5 +1,5 @@
 .Entête{
-         padding:100px;
+         padding:30px;
        }
         figcaption{ text-align:center;}
        
@@ -7,13 +7,15 @@
 .Entête img{width:100%;}
 
 
-.contenue{ /*margin: 200px;*/
-          padding:20%;
+.contenue{ margin: 50px;
+          padding:10%;
           /*border:10px solid black;*/
+          font-size:30px;
         }
 
 .pieddepage{ margin:30px;
              /*border:10px solid black;*/
+             text-align:center;
            }
            ul{list-style:none;}
            li.icôn1:before{
