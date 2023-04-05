@@ -4,9 +4,9 @@
         display: inline-flex;
         justify-content: center;
         background-color: #1ac2b4;
-        height: 20px;
-        padding: 18px;
-        margin-left:260px;
+        height: auto;
+        padding: 10px;
+        margin-left: 23%;
         border-radius: 10px;
         list-style:none;
       }

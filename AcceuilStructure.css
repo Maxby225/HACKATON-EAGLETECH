@@ -1,76 +1,48 @@
 .Entête{
-       position: center;
-       padding: px;
-       margin: 50px;
-      display: flexbox;
-      justify-content: space-between;
-      align-items: center;
-     /* background-color: rgb(8, 8, 8);*/
+      display:inline-flexbox;
+      margin:2rem;
+      padding: 1rem;
        }
 
        #LOGOPHARMA{
         display: flex;
         align-items: normal;
-        /*background-color: black;*/
-        /*margin-right:0px;*/
+       
       }
       
       #LOGOPHARMA img {
         height: 100px;
         margin-right: 10px;
       }
+      #remise{float:right;
+              animation:slide 4s infinite;
+               }
 
-      /*.INFO li:nth-of-type(1){
-        list-style-image: url("img/localisation.jpg");
-      }
-
-      .INFO li:nth-of-type(2){
-        list-style-image: url("img/open.jpg");
-      }
-      .INFO li:nth-of-type(3){
-        list-style-image: url("img/telephone.jpg");
-      }ajouter des image a une liste*/
       
 .Contenue{
-        padding:20px;
-        margin:60px;
+        padding:5rem;
+        margin:5rem;
         text-align:justify;
-        background-color: rgb(216, 8, 8);
-      
-        /**width: 100%;*/
-        /*display: inline-flex;*/
-        /*flex-wrap: wrap;
-        text-align: start;*/
-        
-        
-               }
-               
+      }
+
     .InfoMedecine {
-      width: 0%;
-      margin-right: 00px;
-      margin-left:00px;
-      padding:0px;
       /*line-height:1.5;*/
       display:inline-flex;
+      padding:10rem;
+      margin: 2rem;
                   }
-    h2{margin-left:100px;}
+    h2{float:left;}
 
     .diaporama2{
-        margin-left: 400px;
-      /*margin-right: 500px;*/
-      padding:200px;
-      height: 100%;
-      position: absolute;
-      overflow: hidden;
-      position:relative;
-     }
+      /*margin: 7rem;*/
+      padding:5rem;
+      }
      
-      .diaporama2 img{  
-        position: absolute;
-        left: 0px;
-        top: 0;
-        opacity: 0;
-        height: 300px;
+       .diaporama2 img{  
+        float:right;
+        height:auto;
+        max-width: 100%;
+        width: 50%;
         animation: slide 20s infinite;}
       
         .diaporama2 img:first-child {
@@ -78,22 +50,15 @@
         }
 
      .diaporama1{
-      margin-left: 50px;
-      /*padding: 10px;*/
-      /*height: 0%;
-      position: absolute;
-      overflow: hidden;
-      position:relative;
-      float:right;*/
-
+      margin-left: 5rem;
+      margin-right:15rem;
      }
      
       .diaporama1 img{  
-        /*position: absolute;
-        left: 10px;*/
-        top: 0;
-        opacity: 0;
-        height:30%;
+        position:absolute;
+        max-width: 30%;
+        /*width: 100%;*/
+        height:auto;
         animation: slide 10s infinite;
         float:right;}
       
@@ -102,25 +67,16 @@
         }
 
         .diaporama3{
-         /* margin-left: 50px;
-          padding: 10px;
-          /*height: 0%;
-          position: absolute;
-          overflow: hidden;
-          position:relative;
-          float:right;*/
-    
-         }
+           
+                    margin-right:1rem ;
+                   }
+
         .diaporama3 img{  
-          position: absolute;/*
-          left: 10px;*/
-          /*margin-right: 500px;*/
-          top: 330%;
-          left:10%;
-          opacity: 0%;
-          height:45%;
+         /* max-width: 100%;*/
+          height:auto;
+          width: 300px;
           animation: slide 10s infinite;
-          /*float:left;*/}
+          }
         
           .diaporama3 img:first-child {
             opacity: 1;
@@ -149,25 +105,18 @@
   
 
 
-    .InfoCoeur{   /*align-self:flex-start
-                  /*display:inline-flex;*/
-                  /* width: 100%;
-                  float:right;*/
-                   margin-left: 500px;
-                   padding:1px;/*
-                   line-height:1.5;*/
-                   /*margin-top:20px;
-                   /**text-align: left;*/ 
-
-    }
+    .InfoCoeur{
+                display:inline-flex;
+                padding:10rem;
+                margin: 2rem;
+              }
+              #h2{float:right;}
 
   
 
 .pied_de_page{
-               /*text-align:;*/
-               
                display:flex;
-               justify-content: center;
+              
              }
 
          .contact{  

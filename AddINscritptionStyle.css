@@ -1,3 +1,12 @@
+body{background-image:url('img/medical-5459631.svg');
+    background-position:left;
+    background-repeat:no-repeat;
+    margin:5rem;
+    padding: 5rem;
+    display:inline-flex;
+      }
+
+
 form {
     margin: 0 auto;
     width: 50%;
